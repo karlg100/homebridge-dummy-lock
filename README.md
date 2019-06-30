@@ -14,10 +14,10 @@ Example config.json:
 ```
 
 
-With this plugin, you can create any number of fake locks that will do nothing when turned on or off.  This is related (and the idea) taken from the homebridge-dummy-switch plugin, but with a lock, you must unlock your device to change the state.  Likewise push notifications are sent when the device lock state changes.
+With this plugin, you can create any number of fake locks that will do nothing when turned on or off.  This is related to (and the idea taken from) the homebridge-dummy-switch plugin, but with a lock, you must unlock your HomeKit controlling device to change the state.  Likewise push notifications are sent when the device lock state changes.
 
 ## Example
-My kids love to turn on stuff by talking to Siri to bypass the screenlock. (ie, turn on the TV)  They also discovered the button on the HomeKit switch which manually override the power.  With this software only lock, you can overide the manual override, and prevent Siri commands from the lock screen to turn on a device.  
+My kids love to turn on stuff by talking to Siri to bypass the screenlock. (ie, turn on the TV)  They also discovered the button on the HomeKit switch which manually changes the power state of the device without HomeKit.  With this software only lock, you can overide the manual override to make sure the power stays off, and prevent Siri commands from the lock screen to turn on a device.  
 
 Example rules:
 (Device: TV Switch, dummy lock: TV)
