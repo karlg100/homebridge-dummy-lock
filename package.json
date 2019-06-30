@@ -1,0 +1,23 @@
+{
+  "name": "homebridge-dummy-lock",
+  "version": "0.0.1",
+  "description": "Dummy lcok for Homebridge: https://github.com/nfarina/homebridge",
+  "license": "MIT",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karlg100/homebridge-dummy-lock.git"
+  },
+  "bugs": {
+    "url": "http://github.com/karlg100/homebridge-dummy-lock/issues"
+  },
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+  "dependencies": {
+    "node-persist": "^2.1.0"
+  }
+}
