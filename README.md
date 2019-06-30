@@ -30,4 +30,5 @@ Example rules:
 Get fancy by adding a Delay switch called "1 Hour Timer" to limit screentime:
 * Trigger on "1 Hour Timer" off event, lock TV
 * Trigger on "TV Switch" on event, turn on "1 Hour Timer"
+
 Instead, you can link scenes using these dummy switches. Let's say you have a Hue Scene called "Rise and Shine" that you want to activate in the morning. And you have also setup the system HomeKit scene "Good Morning" to turn on your coffee maker and disarm you security system. You can add a single dummy switch to your Good Morning scene, then create a Trigger based on the switching-on of the dummy switch that also activates Rise And Shine.
